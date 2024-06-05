@@ -7,9 +7,13 @@ Las APIs (Application Programming Interfaces, o Interfaces de Programación de A
 * Endpoints:Puntos específicos de una API donde se pueden acceder a los recursos. Cada endpoint tiene una URL única que identifica el recurso y la operación a realizar.
   
 * Métodos HTTP: Las APIs suelen usar métodos HTTP para realizar operaciones CRUD (Create, Read, Update, Delete). Los métodos más comunes son:
+  
 **GET**: Recuperar datos de un servidor.
+  
 **POST**: Enviar datos al servidor para crear un nuevo recurso.
+
 **PUT**: Actualizar un recurso existente.
+
 **DELETE**: Eliminar un recurso.
 
 ## Solicitudes y Respuestas:
@@ -21,10 +25,15 @@ Las APIs (Application Programming Interfaces, o Interfaces de Programación de A
 Los códigos de estado indican el resultado de la solicitud. Algunos ejemplos comunes son:
 
 _200 OK_: La solicitud fue exitosa.
+
 _201 Created_: Un nuevo recurso fue creado.
+
 _400 Bad Request_: La solicitud es incorrecta.
+
 _401 Unauthorized_: La autenticación es necesaria.
+
 _404 Not Found_: El recurso no fue encontrado.
+
 _500 Internal Server Error_: Error en el servidor.
 
 ## Autenticación y Autorización: 
